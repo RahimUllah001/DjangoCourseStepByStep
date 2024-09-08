@@ -12,4 +12,4 @@ This repository contains projects from my Django crash course. Each day, I creat
 ### Day 1 - Project 1: Hello Wolrd Program
 You can view the full details of this project [here](./gs1/day1-project1.md).
 ### Day 2 - Project 2: Django HTTP Responses
-You can view the full details of this project [here](./gs1/day1-project1.md).
+You can view the full details of this project [here](./gs2/day2-project2.md).
