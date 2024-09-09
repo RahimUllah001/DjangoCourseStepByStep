@@ -16,5 +16,5 @@ You can view the full details of this project [here](./gs1/day1-project1.md).
 ### Day 2 - Project 2: Django HTTP Responses
 You can view the full details of this project [here](./gs2/day2-project2.md).
 
-### Day 2 - Project 2: Mapping multiple URLs to the same view function
+### Day 3 - Project 3: Mapping multiple URLs to the same view function
 You can view the full details of this project [here](./gs3/day3-project3.md).
