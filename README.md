@@ -9,6 +9,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 4 - Project 4: Django HTTP Responses of different types](./gs4/day4-project4.md)
 - [Day 5 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques](./gs5/day5-project5.md)
 - [Day 6 - Project 6: Efficient URL Configuration in Django](./gs6/day6-project6.md)
+- [Day 7 - Project 7: Direct URL Definition and Inclusion Method](./gs7/day7-project7.md)
 
 
 ## Project Descriptions
@@ -31,3 +32,6 @@ You can view the full details of this project [here](./gs5/day5-project5.md).
 
 ### Day 6 - Project 6: Efficient URL Configuration in Django
 You can view the full details of this project [here](./gs6/day6-project6.md).
+
+### Day 7 - Project 7: Direct URL Definition and Inclusion Method
+You can view the full details of this project [here](./gs7/day7-project7.md).
