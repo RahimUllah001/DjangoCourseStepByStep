@@ -7,6 +7,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 2 - Project 2: Django HTTP Responses](./gs2/day2-project2.md)
 - [Day 3 - Project 3: Mapping multiple URLs to the same view function](./gs3/day3-project3.md)
 - [Day 4 - Project 4: Django HTTP Responses of different types](./gs4/day4-project4.md)
+- [Day 4 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques](./gs5/day5-project5.md)
 
 
 ## Project Descriptions
@@ -23,3 +24,6 @@ You can view the full details of this project [here](./gs3/day3-project3.md).
 
 ### Day 4 - Project 4: Django HTTP Responses of different types
 You can view the full details of this project [here](./gs4/day4-project4.md).
+
+### Day 5 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques
+You can view the full details of this project [here](./gs5/day5-project5.md).
