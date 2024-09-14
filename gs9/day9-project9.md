@@ -7,7 +7,7 @@ In this project, I demonstrated how to integrate and use Django templates to dyn
 
 In the first project, I completed the following steps:
 
-## 2. **Created a Django Project**: Created Django projected using  'Django-admin startproject gs1' The project was named `gs1`.
+## 2. **Created a Django Project**: Created Django projected using  'Django-admin startproject gs1' The project was named `gs9`.
 ## 3. **Created an Application**: Inside the project, I created two apps called `course` using 'python manage.py createapp course' and `fees`    using 'python manage.py createapp fees'.
 
 ## 4. **Added the App to `INSTALLED_APPS`**: I added the `course` and `fees` apps  to the Django project's `settings.py`
@@ -18,7 +18,11 @@ In the first project, I completed the following steps:
         # other apps...
     ]
 
-## 4. Folder structure
+
+## 5. Creating templates Folder
+-   created a templates folder inside root directory of prject
+
+## 6. Folder structure
 
     gs9
     ├── templates
@@ -31,21 +35,21 @@ In the first project, I completed the following steps:
     └── course
     └── fees
 
-## 5. Required Modifications in settings.py
+## 7. Required Modifications in settings.py
 -Add the following settings in settings.py to configure the template directories:
 import os
 
 ### Define the directory for templates
  TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
-# TEMPLATES configuration
+### TEMPLATES configuration
 TEMPLATES = [
     {
         'DIRS': [TEMPLATES_DIR],  # Directories where the engine should look for template source files
     },
 ]
 
-# how to cnotact templates from view function 
+## 8. how to cnotact templates from view function 
 ```
 def learn_django(request):
     coursename = {'cname': 'Django'}
@@ -65,7 +69,7 @@ def learn_django(request):
 
 
 
-# Template
+## 9. Template
 - A template is a text file. It can generate any text-based format (HTML, XML, CSV, etc.).
 
 A template contains variables, which get replaced with values when the template is evaluated, and tags, which control the logic of the template.
