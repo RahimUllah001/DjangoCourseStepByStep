@@ -7,7 +7,7 @@ In this project, I demonstrated how to integrate and use Django templates to dyn
 
 In the first project, I completed the following steps:
 
-## 2. **Created a Django Project**: Created Django projected using  'Django-admin startproject gs1' The project was named `gs9`.
+## 2. **Created a Django Project**: Created Django projected using  'Django-admin startproject gs9' The project was named `gs9`.
 ## 3. **Created an Application**: Inside the project, I created two apps called `course` using 'python manage.py createapp course' and `fees`    using 'python manage.py createapp fees'.
 
 ## 4. **Added the App to `INSTALLED_APPS`**: I added the `course` and `fees` apps  to the Django project's `settings.py`
