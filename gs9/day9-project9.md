@@ -70,10 +70,10 @@ def learn_django(request):
 
 
 ## 9. Template
-- A template is a text file. It can generate any text-based format (HTML, XML, CSV, etc.).
+    A template is a text file. It can generate any text-based format (HTML, XML, CSV, etc.).
 
-A template contains variables, which get replaced with values when the template is evaluated, and tags, which control the logic of the template.
+    A template contains variables, which get replaced with values when the template is evaluated, and tags, which control the logic of the template.
 
-Template is used by the view function to represent the data to the user.
+    Template is used by the view function to represent the data to the user.
 
-The user sends a request to view, then view contacts the template, afterward the view gets information from the template and then the view gives a response to the users.
+    The user sends a request to view, then view contacts the template, afterward the view gets information from the template and then the view gives a response to the users.
