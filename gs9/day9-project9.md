@@ -49,7 +49,7 @@ TEMPLATES = [
     },
 ]
 
-## 8. how to cnotact templates from view function 
+## 8. how to contact templates from view function 
 ```
 def learn_django(request):
     coursename = {'cname': 'Django'}
