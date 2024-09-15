@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% comment %} using for loop {% endcomment %}
+<ul>
+  {% comment %}  {% for name in names reversed  %}  if we want in reversed order {% endcomment %}
+    {% for name in names  %}
+    <li>{{name}}</li>
+    {% empty %}
+    <h3>when nothing is passed this message will show </h3>
+    
+    {% endfor %}
+
+
+
+</ul>
+   
+</body>
+</html>

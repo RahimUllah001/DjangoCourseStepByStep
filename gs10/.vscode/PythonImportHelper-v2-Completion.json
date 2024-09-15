@@ -1,0 +1,421 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "CourseConfig",
+        "kind": 6,
+        "importPath": "course.apps",
+        "description": "course.apps",
+        "peekOfCode": "class CourseConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'course'",
+        "detail": "course.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "course.urls",
+        "description": "course.urls",
+        "peekOfCode": "urlpatterns = [\n    path('learndj/', views.learn_django),\n    path('learnpy/', views.learn_python),\n    path('dt/', views.showing_date_time_template),\n    path('numformat/', views.filter_for_float__number_format),\n    path('if/',views.if_st),\n    path('loops/',views.loops),\n    path('flv/',views.forloop_varaibles),\n    path('ndf/',views.nested_loop_and_dict),\n    path('kv/',views.passing_key_value)",
+        "detail": "course.urls",
+        "documentation": {}
+    },
+    {
+        "label": "learn_django",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def learn_django(request):\n    cname = 'Django'\n    duration = '4 Months'\n    seats = 10\n    django_Details = {'n':cname,'du':duration,'st':seats}\n    return render(request,'course/courseone.html',context=django_Details)\ndef learn_python(request):\n    return render(request,'course/coursetwo_with_filter.html',{'nm':'this course iMMMMMMMs awesome'})\ndef showing_date_time_template(request):\n    d = datetime.now()",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "learn_python",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def learn_python(request):\n    return render(request,'course/coursetwo_with_filter.html',{'nm':'this course iMMMMMMMs awesome'})\ndef showing_date_time_template(request):\n    d = datetime.now()\n    return render(request,'course/date_time_template.html',{'dt':d}) \ndef filter_for_float__number_format(request):\n    return render(request,'course/float_number_formate.html',{'p1':56.24321, 'p2':56.0000, 'p3':56.37000}) \ndef if_st(request):\n    # return render(request,'course/if_st.html',{'name':'True'}) #will not show anything if we pass false value\n    # return render(request,'course/if_st.html',{'name':'Django'})",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "showing_date_time_template",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def showing_date_time_template(request):\n    d = datetime.now()\n    return render(request,'course/date_time_template.html',{'dt':d}) \ndef filter_for_float__number_format(request):\n    return render(request,'course/float_number_formate.html',{'p1':56.24321, 'p2':56.0000, 'p3':56.37000}) \ndef if_st(request):\n    # return render(request,'course/if_st.html',{'name':'True'}) #will not show anything if we pass false value\n    # return render(request,'course/if_st.html',{'name':'Django'})\n    # return render(request,'course/if_st.html',{'name':'Django', 'st':5})\n    return render(request,'course/if_st.html',{'name':'Django',})",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "filter_for_float__number_format",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def filter_for_float__number_format(request):\n    return render(request,'course/float_number_formate.html',{'p1':56.24321, 'p2':56.0000, 'p3':56.37000}) \ndef if_st(request):\n    # return render(request,'course/if_st.html',{'name':'True'}) #will not show anything if we pass false value\n    # return render(request,'course/if_st.html',{'name':'Django'})\n    # return render(request,'course/if_st.html',{'name':'Django', 'st':5})\n    return render(request,'course/if_st.html',{'name':'Django',})\ndef loops(request):\n    student = {'names': ['rahim','nasir','ibrahim']}\n    return render(request,'course/for_loop.html',context = student)",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "if_st",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def if_st(request):\n    # return render(request,'course/if_st.html',{'name':'True'}) #will not show anything if we pass false value\n    # return render(request,'course/if_st.html',{'name':'Django'})\n    # return render(request,'course/if_st.html',{'name':'Django', 'st':5})\n    return render(request,'course/if_st.html',{'name':'Django',})\ndef loops(request):\n    student = {'names': ['rahim','nasir','ibrahim']}\n    return render(request,'course/for_loop.html',context = student)\ndef forloop_varaibles(request):\n    student = {'names': ['rahim','nasir','ibrahimend']}",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "loops",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def loops(request):\n    student = {'names': ['rahim','nasir','ibrahim']}\n    return render(request,'course/for_loop.html',context = student)\ndef forloop_varaibles(request):\n    student = {'names': ['rahim','nasir','ibrahimend']}\n    return render(request,'course/forloop_varaibles.html',student)\ndef nested_loop_and_dict(request):\n    stu = { 'stu1' : {'name': \"rahim\",'age':1},\n            'stu2' : {'name': \"israr\",'age':2},\n            'stu3' : {'name': \"faizan\",'age':3},",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "forloop_varaibles",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def forloop_varaibles(request):\n    student = {'names': ['rahim','nasir','ibrahimend']}\n    return render(request,'course/forloop_varaibles.html',student)\ndef nested_loop_and_dict(request):\n    stu = { 'stu1' : {'name': \"rahim\",'age':1},\n            'stu2' : {'name': \"israr\",'age':2},\n            'stu3' : {'name': \"faizan\",'age':3},\n          }\n    students = {'student': stu}\n    return render(request,'course/nested_dict_and_for.html',students)",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "nested_loop_and_dict",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def nested_loop_and_dict(request):\n    stu = { 'stu1' : {'name': \"rahim\",'age':1},\n            'stu2' : {'name': \"israr\",'age':2},\n            'stu3' : {'name': \"faizan\",'age':3},\n          }\n    students = {'student': stu}\n    return render(request,'course/nested_dict_and_for.html',students)\ndef passing_key_value(request):\n    data = { 'stu1' : {'name': \"rahim\",'age':1},\n                'stu2' : {'name': \"israr\",'age':2},",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "passing_key_value",
+        "kind": 2,
+        "importPath": "course.views",
+        "description": "course.views",
+        "peekOfCode": "def passing_key_value(request):\n    data = { 'stu1' : {'name': \"rahim\",'age':1},\n                'stu2' : {'name': \"israr\",'age':2},\n                'stu3' : {'name': \"faizan\",'age':3},\n            }\n    return render(request,'course/nested_dict_and_for.html',{'data':data})",
+        "detail": "course.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gs10.asgi",
+        "description": "gs10.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "gs10.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nTEMPLATE_DIR = os.path.join(BASE_DIR,'templates')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-z7vkrxd1jjs3uvf!6pn(p6ror*d!yv6f)$u)dw*b(=s_ikssiu'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE_DIR",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-z7vkrxd1jjs3uvf!6pn(p6ror*d!yv6f)$u)dw*b(=s_ikssiu'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-z7vkrxd1jjs3uvf!6pn(p6ror*d!yv6f)$u)dw*b(=s_ikssiu'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'course',",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'course',\n]\nMIDDLEWARE = [",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'gs10.urls'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "ROOT_URLCONF = 'gs10.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'gs10.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "gs10.settings",
+        "description": "gs10.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs10.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "gs10.urls",
+        "description": "gs10.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('cor/', include('course.urls')),\n]",
+        "detail": "gs10.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gs10.wsgi",
+        "description": "gs10.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "gs10.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gs10.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

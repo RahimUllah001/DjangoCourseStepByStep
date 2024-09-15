@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{student}}
+    <hr>
+    {{student.stu1}}
+    {{student.stu2}}
+    {{student.stu3}}
+    <hr>
+    {{student.stu1.name}}
+    {{student.stu1.age}}
+    <hr>
+    {{student.stu2.name}}
+    {{student.stu2.age}}
+    <hr>
+    {{student.stu3.name}}
+    {{student.stu3.age}}
+
+    {{data}}
+
+
+    {% comment %} or through the following way {% endcomment %}
+
+    <hr>
+    {% for key,value in data.items  %}
+    
+    {{key}} = {{value}}
+    <br>
+    {% endfor %}
+
+{% comment %} Another way {% endcomment %}
+    <hr>
+    {% for key,value in data.items  %}
+    {{key}} = {{value}} <br>
+
+    {% for key,value in value.items  %}
+    
+    {{forloop.parentloop.counter}}--{{key}} = {{value}}
+    <br>
+    {% endfor %}
+    <br>
+    {% endfor %}
+
+
+
+</body>
+</html>

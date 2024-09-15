@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {% if name  %}
+    
+    <h1>Course name =  {{name}}</h1>
+    
+    {% endif %}
+
+
+    {% if name and st %}
+    <h3>{{st}} seats re aaliable for {{name}} course</h3>
+    {% endif %}
+
+    {% if name or st %}
+    <h3>{{st}} seats re aaliable for {{name}} course</h3>
+    {% endif %}
+
+    {% if not st %}
+    <h3> no seats are avaliable for {{name}} course</h3>
+    {% endif %}
+
+    {% if name == 'Django' and st == 5 %}
+    <h3>{{st}} seats re aaliable for specific {{name}} course</h3>
+    {% endif %}
+
+    {% if name|length > 4 %}
+    <p>character in django word is greater than 4</p>
+    {% endif %}
+   
+    {% if name|length > 9 %}
+    <h1> if condition</h1>
+    {% elif not st %}
+    <h2>no seat avalible</h2>
+    {% else %}
+    <h2> hefe i used else condition</h2>
+    {% endif %}
+</html>
+
+

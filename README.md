@@ -11,6 +11,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 6 - Project 6: Efficient URL Configuration in Django](./gs6/day6-project6.md)
 - [Day 7 - Project 7: Direct URL Definition and Inclusion Method](./gs7/day7-project7.md)
 - [Day 9 - Project 9: How to use templates in django ](./gs9/day9-project9.md)
+- [Day 10 - Project 10: Django Template Filters, Tags, and Contextual Data Handling ](./gs10/day10-project10.md)
 
 
 ## Project Descriptions
@@ -39,3 +40,6 @@ You can view the full details of this project [here](./gs7/day7-project7.md).
 
 ### Day 9 - Project 9: How to use templates in django 
 You can view the full details of this project [here](./gs9/day9-project9.md).
+
+### Day 10 - Project 10: Django Template Filters, Tags, and Contextual Data Handling 
+You can view the full details of this project [here](./gs10/day10-project10.md).

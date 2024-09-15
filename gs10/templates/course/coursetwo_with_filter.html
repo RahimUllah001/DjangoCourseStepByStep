@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: seashell;
+        }
+    </style>
+</head>
+<body>
+    <h1>Course name: {{nm | capfirst}}</h1>         {% comment %} capfirst will capitalize the first letter capital {% endcomment %}
+    <h1>Course name: {{du| default:"nothing ==>this means no dictionary is passed from view or dictionary ky value is false"}}</h1>
+    <h1>Course name: {{nm | length}}</h1>
+    <h1>Course name: {{nm | lower}}</h1>
+    <h1>Course name: {{nm |slice:'7' }}</h1>    {% comment %} slice will make slice from start upto the given number of characters {% endcomment %}
+    <h1>Course name: {{nm |truncatechars:'7' }}</h1>    {% comment %} truncatechars will make slice from start upto the given number of characters and  will not show the last chracter but wil show ... {% endcomment %}
+    <h1>Course name: {{nm |truncatewords:'2' }}</h1>    {% comment %} truncatewords will make slice from start upto the given number of words and wil show ... by default {% endcomment %}
+</body>
+</html>

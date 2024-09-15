@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+        {{dt | date:'D d M Y'}}                    {% comment %} Sun 15 Sep 2024 {% endcomment %}
+        <br>
+        {{dt| time:'H:i'}}                         {% comment %} 22:19 {% endcomment %}
+        <br>
+        {{dt | date:'SHORT_DATE_FORMAT'}}          {% comment %} 09/15/2024 {% endcomment %}
+        <br>
+        {{dt | time:'TIME_FORMAT'}}                {% comment %} 10:19 p.m.{% endcomment %}
+        <br> 
+        {{dt}}                                     {% comment %} Sept. 15, 2024, 10:19 p.m.{% endcomment %}
+
+</body>
+</html>
