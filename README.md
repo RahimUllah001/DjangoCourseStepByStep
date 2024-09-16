@@ -12,6 +12,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 7 - Project 7: Direct URL Definition and Inclusion Method](./gs7/day7-project7.md)
 - [Day 9 - Project 9: How to use templates in django ](./gs9/day9-project9.md)
 - [Day 10 - Project 10: Django Template Filters, Tags, and Contextual Data Handling ](./gs10/day10-project10.md)
+- [Day 11 - Project 11: Building a Django Project with Integrated Root and Application Templates ](./gs11/day11-project11.md)
 
 
 ## Project Descriptions
@@ -43,3 +44,6 @@ You can view the full details of this project [here](./gs9/day9-project9.md).
 
 ### Day 10 - Project 10: Django Template Filters, Tags, and Contextual Data Handling 
 You can view the full details of this project [here](./gs10/day10-project10.md).
+
+### Day 11 - Project 10: Django Template Filters, Tags, and Contextual Data Handling 
+You can view the full details of this project [here](./gs11/day11-project11.md).
