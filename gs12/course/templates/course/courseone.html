@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/some.css'%}">
+    <link rel="stylesheet" href="{%static 'course/css/style.css'%}">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>cours name is {{cname}} </h2>
+    <img src="{% static 'course/images/a.jpeg' %}" alt="pic not avalaible">
+    <br>
+   {% comment %} for the above task another way {% endcomment %}
+    <img src="{% get_static_prefix %}course/images/a.jpeg " alt="pic not avalaible">
+
+    <form action="">
+
+        <input type="button" value="Click Me " onclick = "disp()">
+    </form>
+<script src="{% static 'course/js/all.js' %}?v=2"></script>
+</body>
+</html>

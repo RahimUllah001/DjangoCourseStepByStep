@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/some.css' %}?v=2">
+    <link rel="stylesheet" href="{%static 'fees/css/style.css' %}?v=2">
+    <title>{{title}}</title>
+    
+</head>
+<body>
+    <h2>Feesssss</h2>
+    <img src="{% static 'fees/images/a.jpeg' %}" alt="pic not avalaible">
+    <br>
+   {% comment %} for the above task another way {% endcomment %}
+    <img src="{% get_static_prefix %}fees/images/a.jpeg " alt="pic not avalaible">
+
+    <form action="">
+
+        <input type="button" value="Click Me " onclick = "disp()">
+    </form>
+    <script src="{% static 'fees/js/all.js' %}?v=2"></script>
+</body>
+</html>
