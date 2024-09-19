@@ -301,7 +301,7 @@
         "kind": 5,
         "importPath": "gs12.settings",
         "description": "gs12.settings",
-        "peekOfCode": "ROOT_URLCONF = 'gs12.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this         'APP_DIRS': True,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'gs12.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this ==> 'APP_DIRS': True,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "gs12.settings",
         "documentation": {}
     },
@@ -310,7 +310,7 @@
         "kind": 5,
         "importPath": "gs12.settings",
         "description": "gs12.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this         'APP_DIRS': True,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this ==> 'APP_DIRS': True,\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "gs12.settings",
         "documentation": {}
     },

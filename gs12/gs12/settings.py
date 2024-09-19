@@ -66,7 +66,7 @@ ROOT_URLCONF = 'gs12.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this         'APP_DIRS': True,
+        'DIRS': [TEMPLATE_DIR], # i have written this line when i have to used templates in outside the application means in root directory if we have to not make it in root directory then we will only check this ==> 'APP_DIRS': True,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
