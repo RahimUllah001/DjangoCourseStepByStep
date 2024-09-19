@@ -75,7 +75,7 @@ In your HTML templates, you need to load the static tag using {% load static %} 
 
 Example:
 
-
+```
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
@@ -106,6 +106,7 @@ Example:
     <script src="{% get_static_prefix %}course/js/all.js"></script>
 </body>
 </html>
+```
 
 ## 4. Organizing Static Files in Apps
 In the course and fees apps, we create individual static/course/ and static/fees/ directories where we place the CSS, JavaScript, and image files related to those apps. Django automatically serves these files when referenced in templates.
