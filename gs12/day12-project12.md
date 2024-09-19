@@ -43,7 +43,7 @@ STATICFILES_DIRS = [
 ## 2. Folder Structure for Static Files
 We follow this folder structure in the project:
 
-
+```
 gs12/
 │
 ├── static/                   # Root-level static files (for the whole project)
@@ -65,7 +65,7 @@ gs12/
 │       │   ├── js/
 │       │   └── images/
 
-
+```
 * **Root-Level Static Files**: We have a `static/` folder in the project root that holds static files for the entire project.
 * **App-Level Static Files**: Each app (e.g., `course` and `fees`) has its own `static/` folder inside the app directory, containing app-specific CSS, JS, and image files.
 
