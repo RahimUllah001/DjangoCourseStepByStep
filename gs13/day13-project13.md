@@ -70,7 +70,7 @@ I am the new home page.
 In home.html, I extend the base template. I override the title block and use {{ block.super }} to include the title from the parent template while adding "+Home" to it. I override the content block to add specific content for the home page.
 
 Another Child Template (courseinfo.html):
-```
+```html
 {% extends "core/base.html" %}
 {% load static %}
 
@@ -89,10 +89,9 @@ I am the course Django page.
 In courseinfo.html, I extend the base template and also load static files. I override the corecss block to add custom CSS for this specific page while keeping the parent styles using {{ block.super }}. The title block is overridden with a specific title, Django, which completely replaces the parent title.
 
 CSS Inheritance Example:
-I have core styles in core.css:
+**I have core styles in core.css:**
 
-css
-Copy code
+```css
 body {
     background-color: darkgoldenrod;
 }
@@ -104,10 +103,10 @@ h2 {
 nav {
     color: rgb(233, 11, 11);
 }
-In course.css, I override the nav color:
 
-css
-Copy code
+```
+**In course.css, I override the nav color:**
+```css
 nav {
     color: rgb(61, 25, 204);
 }
