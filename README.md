@@ -15,6 +15,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 
 - [Day 11 - Project 11: Building a Django Project with Integrated Root and Application Templates ](./gs11/day11-project11.md)
 - [Day 12 - Project 12: Static Files in Django ](./gs12/day12-project12.md)
+- [Day 13 - Project 13: Template Inheritance in Django ](./gs13/day13-project13.md)
 
 
 ## Project Descriptions
@@ -52,3 +53,6 @@ You can view the full details of this project [here](./gs11/day11-project11.md).
 
 ### Day 12 - Static Files in Django
 You can view the full details of this project [here](./gs12/day12-project12.md).
+
+### Day 13 - Template Inheritance in Django
+You can view the full details of this project [here](./gs13/day13-project13.md).
