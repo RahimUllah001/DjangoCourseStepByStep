@@ -110,6 +110,7 @@ nav {
 nav {
     color: rgb(61, 25, 204);
 }
+```
 This structure ensures that I use global styles defined in core.css while allowing specific pages like the course page to have their own styles.
 
 Conclusion
