@@ -113,7 +113,7 @@ nav {
 ```
 This structure ensures that I use global styles defined in core.css while allowing specific pages like the course page to have their own styles.
 
-Conclusion
+## **Conclusion**
 By using template inheritance, I ensure that all pages share a common layout while allowing flexibility for each individual page to have its own unique content. The use of {% extends %}, {% block %}, and {{ block.super }} helps maintain a balance between reusability and customization, making the project easier to manage and scale.
 
 
