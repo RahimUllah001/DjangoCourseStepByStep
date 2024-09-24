@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}by default value{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static "core/css/all.min.css" %}">
+    <link rel="stylesheet" href="{% static "core/css/bootstrap.css" %}">
+
+    {% block corecss%}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}?v=2">
+    {% endblock corecss%}
+
+</head>
+<body>
+    <nav>
+        <ul>
+            {% comment %} An easy way to create hyperlink
+            here i use '/'  for home url as only this url was defined in projects urls.py file
+            here i use '/about'  for About URL as only this url was defined in projects urls.py file
+            here i use '/cor/learndj'  for Django course Url as only /cor/ was defined in projects urls.py file and learndj/ was defined in application urls.py
+            {% endcomment %}
+            <li><a href="/">Home</a></li>
+            {% comment %} <li><a href="/about">About</a></li> {% endcomment %}
+            {% comment %} <li><a href="/cor/learndj">Django Course</a></li>         for simple url {% endcomment %}
+            {% comment %} Another way {% endcomment %}
+            <li><a href="{% url 'aboutus' %}">About</a></li>
+            <li><a href="{% url 'courseone' %}">Django Course</a></li>
+
+            {% comment %} Now if i change the url about/ in urls.py to about me the above easy way of url defining will not 
+            work and will return an erro that url nnot mthch while this one will work as this only see name of url
+             tag which can nebwr be changeed {% endcomment %}
+
+
+        </ul>
+    </nav>
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<i class="fa-solid fa-check"></i>
+
+<br>
+    {% block content %}{% endblock content %}
+    {% block content1 %}{% endblock content1 %} {% comment %} we cannot make two block with same just like here i make tow blocks content and content1 {% endcomment %}
+    <script src="{% static "core/js/all.min.js" %}"></script>
+    <script src="{% static "core/js/bootstrap.js" %}"></script>
+    <script src="{% static "core/js/jquery.js" %}"></script>
+    <script src="{% static "core/js/popper.js" %}"></script>
+   
+</body>
+</html>
+
+
