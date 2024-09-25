@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}by default value{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static "core/css/all.min.css" %}">
+    <link rel="stylesheet" href="{% static "core/css/bootstrap.css" %}">
+
+    {% block corecss%}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}?v=2">
+    {% endblock corecss%}
+
+</head>
+<body>
+   {% include "core/navbar.html" %}
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+
+<i class="fa-solid fa-check"></i>       {% comment %} icon {% endcomment %}
+
+<br>
+    {% block content %}{% endblock content %}
+    {% block content1 %}{% endblock content1 %} {% comment %} we cannot make two block with same just like here i make tow blocks content and content1 {% endcomment %}
+    <script src="{% static "core/js/all.min.js" %}"></script>
+    <script src="{% static "core/js/bootstrap.js" %}"></script>
+    <script src="{% static "core/js/jquery.js" %}"></script>
+    <script src="{% static "core/js/popper.js" %}"></script>
+   
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+{% extends "core/base.html" %}
+
+{% block title %}{{block.super}}+Home{% endblock title %}
+
+{% block content %}
+
+
+<h2>i am home page {{d}}</h2>       {% comment %} django comes from home view {% endcomment %}
+
+{% include "core/topcourses.html"  with j="java" only %}        {% comment %} only laganay say ye oper wala topcourses.html ko pass nahi hoga serf jo hum yaha java bejthay hai wo pass hoga {% endcomment %}
+{% include "core/topcourses.html"  with j="jeera" only %}       
+{% include "core/topcourses.html"  with j="jewla" only %}     
+{% include "core/navbar.html" %}
+
+{% endblock content %}
