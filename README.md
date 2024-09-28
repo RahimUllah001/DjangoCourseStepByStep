@@ -17,7 +17,10 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 12 - Project 12: Static Files in Django ](./gs12/day12-project12.md)
 - [Day 13 - Project 13: Template Inheritance in Django ](./gs13/day13-project13.md)
 - [Day 14 - Project 14: Using Bootstrap Template Inheritance in Django ](./gs14/day14-project14.md)
+- [Day 14 - Project 15: Read file still to add ](./gs15)
+- [Day 14 - Project 16: Read Me file still to add ](./gs16)
 - [Day 17 - Project 17: How to Create a Table in a Database using Django and Achieve Migration ](./gs17/day17-project17.md)
+- [Day 18 - Project 18: Using the list_display Property of the ModelAdmin Class for Customizing the Admin Interface in Django](./gs18/day18-project18.md)
 
 
 ## Project Descriptions
@@ -64,3 +67,6 @@ You can view the full details of this project [here](./gs14/day14-project14.md).
 
 ### Day 17 - How to Create a Table in a Database using Django and Achieve Migration
 You can view the full details of this project [here](./gs17/day17-project17.md).
+
+### Day 18 - Using the list_display Property of the ModelAdmin Class for Customizing the Admin Interface in Django
+You can view the full details of this project [here](./gs18/day18-project18.md).
