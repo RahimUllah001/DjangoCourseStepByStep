@@ -21,8 +21,8 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 14 - Project 16: Read Me file still to add ](./gs16)
 - [Day 17 - Project 17: How to Create a Table in a Database using Django and Achieve Migration ](./gs17/day17-project17.md)
 - [Day 18 - Project 18: Using the list_display Property of the ModelAdmin Class for Customizing the Admin Interface in Django](./gs18/day18-project18.md)
-- [Day 18 - Project 19: Django Form Display Methods](./gs19/day19-project19.md)
-- [Day 18 - Project 20: Configuring ID Attribute, Label Tag, and Dynamic Initial Value in Django Forms](./g20/day20-project20.md)
+- [Day 19 - Project 19: Django Form Display Methods](./gs19/day19-project19.md)
+- [Day 20 - Project 20: Configuring ID Attribute, Label Tag, and Dynamic Initial Value in Django Forms](./g20/day20-project20.md)
 
 
 ## Project Descriptions
