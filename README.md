@@ -79,3 +79,5 @@ You can view the full details of this project [here](./gs19/day19-project19.md).
 
 ### Day 21 - Form Field Rendering in Django
 You can view the full details of this project [here](./gs21/day21-project21.md).
+### Day 20 - Configuring ID Attribute, Label Tag, and Dynamic Initial Value in Django Forms
+You can view the full details of this project [here](./gs20/day20-project20.md).
