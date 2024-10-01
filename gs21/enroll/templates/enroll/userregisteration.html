@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registeration</title>
+</head>
+<body>
+    <form action="" method="get">
+        {% comment %} Manually Rendering the Form Field {% endcomment %}
+        <div>
+            <label for="id_name">Name:</label>
+            <input type="text" name="name" required id="id_name">
+        </div>
+        {% comment %}  Dynamic (Django Form) Renderin  {% endcomment %}
+        <div>
+            <label for="{{form.name.id_for_label}}">Name:</label>
+            {{form.name}}
+        </div>
+        {% comment %}  whole label tag  {% endcomment %}
+        <div>
+            {{form.name.label_tag}}
+            {{form.name}}
+        </div>
+        {% comment %}  only will five the label not the box or field {% endcomment %}
+
+        <div>
+            {{form.name.label}}
+        </div>
+        {% comment %}  to see if there is any initial value {% endcomment %}
+         <div>
+            {{form.name1.value}}
+            {{form.name1.help_text}}
+            {{form.name1.filed.required}}
+        </div>
+
+    </form>
+</body>
+</html>
