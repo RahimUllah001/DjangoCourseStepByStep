@@ -25,6 +25,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 20 - Project 20: Configuring ID Attribute, Label Tag, and Dynamic Initial Value in Django Forms](./g20/day20-project20.md)
 - [Day 21 - Project 21: Form Field Rendering in Django](./g21/day21-project21.md)
 - [Day 22 - Project 22: Loop through form fields and form hidden fields  in Django](./g22/day22-project22.md)
+- [Day 23 - Project 23: Form fields arguments in Django ](./g23/day23-project23.md)
 
 
 ## Project Descriptions
@@ -86,3 +87,6 @@ You can view the full details of this project [here](./gs21/day21-project21.md).
 
 ### Day 22 - Loop through form fields and form hidden fields  in Django
 You can view the full details of this project [here](./gs22/day22-project22.md).
+
+### Day 23 - Form fields arguments in Django 
+You can view the full details of this project [here](./gs23/day23-project23.md).
