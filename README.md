@@ -23,9 +23,11 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 18 - Project 18: Using the list_display Property of the ModelAdmin Class for Customizing the Admin Interface in Django](./gs18/day18-project18.md)
 - [Day 19 - Project 19: Django Form Display Methods](./gs19/day19-project19.md)
 - [Day 20 - Project 20: Configuring ID Attribute, Label Tag, and Dynamic Initial Value in Django Forms](./g20/day20-project20.md)
+
 - [Day 21 - Project 21: Form Field Rendering in Django](./g21/day21-project21.md)
 - [Day 22 - Project 22: Loop through form fields and form hidden fields  in Django](./g22/day22-project22.md)
 - [Day 23 - Project 23: Form fields arguments in Django ](./g23/day23-project23.md)
+- [Day 24 - Project 24: Django Form Custom Widgets ](./g24/day24-project24.md)
 
 
 ## Project Descriptions
@@ -90,3 +92,6 @@ You can view the full details of this project [here](./gs22/day22-project22.md).
 
 ### Day 23 - Form fields arguments in Django 
 You can view the full details of this project [here](./gs23/day23-project23.md).
+
+### Day 24 - Django Form Custom Widgets 
+You can view the full details of this project [here](./gs24/day24-project24.md).
