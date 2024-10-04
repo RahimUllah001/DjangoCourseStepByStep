@@ -27,7 +27,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 21 - Project 21: Form Field Rendering in Django](./g21/day21-project21.md)
 - [Day 22 - Project 22: Loop through form fields and form hidden fields  in Django](./g22/day22-project22.md)
 - [Day 23 - Project 23: Form fields arguments in Django ](./g23/day23-project23.md)
-- [Day 24 - Project 24: Django Form Custom Widgets ](./g24/day24-project24.md)
+- [Day 24 - Project 24: Django Form Custom Widgets ](./gs24/day24-project24.md)
 
 
 ## Project Descriptions
