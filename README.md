@@ -28,6 +28,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 22 - Project 22: Loop through form fields and form hidden fields  in Django](./g22/day22-project22.md)
 - [Day 23 - Project 23: Form fields arguments in Django ](./g23/day23-project23.md)
 - [Day 24 - Project 24: Django Form Custom Widgets ](./gs24/day24-project24.md)
+- [Day 25 - Project 25: Django Form Submission and Success Message ](./gs25/day25-project25.md)
 
 
 ## Project Descriptions
@@ -95,3 +96,6 @@ You can view the full details of this project [here](./gs23/day23-project23.md).
 
 ### Day 24 - Django Form Custom Widgets 
 You can view the full details of this project [here](./gs24/day24-project24.md).
+
+### Day 25 - Django Form Submission and Success Message
+You can view the full details of this project [here](./gs25/day25-project25.md).
