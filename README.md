@@ -29,8 +29,8 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 23 - Project 23: Form fields arguments in Django ](./g23/day23-project23.md)
 - [Day 24 - Project 24: Django Form Custom Widgets ](./gs24/day24-project24.md)
 - [Day 25 - Project 25: Django Form Submission and Success Message ](./gs25/day25-project25.md)
-- [Day 26 - Project 26: Django Form Customization: Min/Max Values, Default Inputs, and Error Management
- ](./gs26/day26-project26.md)
+- [Day 26 - Project 26: Django Form Customization: Min/Max Values, Default Inputs, and Error Management](./gs26/day26-project26.md)
+- [Day 27 - Project 26: Custom Validation in Django Forms](./gs27/day27-project27.md)
 
 
 ## Project Descriptions
@@ -100,5 +100,7 @@ You can view the full details of this project [here](./gs23/day23-project23.md).
 You can view the full details of this project [here](./gs24/day24-project24.md).
 
 ### Day 26 - Django Form Customization: Min/Max Values, Default Inputs, and Error Management
-
 You can view the full details of this project [here](./gs26/day26-project26.md).
+
+### Day 27 - Custom Validation in Django Forms
+You can view the full details of this project [here](./gs27/day27-project27.md).
