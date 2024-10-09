@@ -76,6 +76,7 @@ class StudentRegisteration(forms.Form):
     </html>
 ```    
 ##  Features
-   * Password Matching: The form includes custom validation to ensure that the password and the repeated password match. If they do not, a        validation error is raised.
+   * Password Matching: The form includes custom validation to ensure that the password and the repeated password match. If they do not, a validation error is raised.
     Form Handling: The form is submitted via POST, and the view handles both form validation and error messages.
-    CSRF Protection: The form template includes CSRF tokens for security during form submission.*
+    CSRF Protection: The form template includes CSRF tokens for security during form submission.
+
