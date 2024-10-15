@@ -32,7 +32,8 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 26 - Project 26: Django Form Customization: Min/Max Values, Default Inputs, and Error Management](./gs26/day26-project26.md)
 - [Day 27 - Project 27: Custom Validation in Django Forms](./gs27/day27-project27.md)
 - [Day 28 - Project 28: User Registration with Password Matching in Django](./gs28/day28-project28.md)
-- [Day 29 - Project 29: Django User Registration System using Form Api](./gs28/day28-project28.md)
+- [Day 29 - Project 29: Django User Registration System using Form Api](./gs28/day29-project29.md)
+- [Day 30 - Django User Registration System using Model form](./gs30/day30-project30.md)
 
 
 ## Project Descriptions
@@ -112,3 +113,6 @@ You can view the full details of this project [here](./gs28/day28-project28.md).
 
 ### Day 29 - Django User Registration System using Form Api
 You can view the full details of this project [here](./gs29/day29-project29.md).
+
+### Day 30 - Django User Registration System using Model form
+You can view the full details of this project [here](./gs30/day30-project30.md).

@@ -1,4 +1,4 @@
-#   Django User Registration System using Model form
+#  Django User Registration System using Model form
 
 ## Description
 
@@ -72,13 +72,7 @@ I implemented the `showformdata` view to handle form submissions for user regist
             fm = StudentRegisteration()
         return render(request, 'enroll/userregisteration.html', {'form': fm})
 
-
-
-
 ```
-
-
-
 ##  **Some extra work**
 
 
