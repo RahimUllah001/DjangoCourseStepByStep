@@ -35,6 +35,8 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 29 - Project 29: Django User Registration System using Form Api](./gs28/day29-project29.md)
 - [Day 30 - Django User Registration System using Model form](./gs30/day30-project30.md)
 
+- [Day 31 - Dynamic URL Configuration in Django](./gs31/day31-project31.md)
+
 
 ## Project Descriptions
 
@@ -116,3 +118,6 @@ You can view the full details of this project [here](./gs29/day29-project29.md).
 
 ### Day 30 - Django User Registration System using Model form
 You can view the full details of this project [here](./gs30/day30-project30.md).
+
+### Day 30 - Dynamic URL Configuration in Django
+You can view the full details of this project [here](./gs31/day31-project31.md).

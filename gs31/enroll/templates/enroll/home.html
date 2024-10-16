@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'detail' 1 %}">Student 1</a>
+    <a href="{% url 'detail' 2 %}">Student 2</a>
+    <a href="{% url 'detail' 3 %}">Student 3</a>
+
+
+    <a href="{% url 'subdetail' 2 10%}"> Sub Student 1</a>
+    <a href="{% url 'subdetail' 20 50%}">Sub Student 2</a>
+    <a href="{% url 'subdetail' 61 100%}">Sub Student 3</a>
+</body>
+</html>
