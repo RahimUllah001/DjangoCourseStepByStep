@@ -124,5 +124,5 @@ You can view the full details of this project [here](./gs30/day30-project30.md).
 ### Day 31 - Dynamic URL Configuration in Django
 You can view the full details of this project [here](./gs31/day31-project31.md).
 
-
+### Day 32 - Configuring Django ModelForm for Custom Student Registration Form with Field Selection and Exclusion
 You can view the full details of this project [here](./gs32/day32-project32.md).
