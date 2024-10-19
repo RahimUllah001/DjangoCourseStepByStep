@@ -1,4 +1,4 @@
-# Day 5 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques
+# Project: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques
 *This project demonstrates two approaches to URL mapping in Django*
 
 In the first project, I completed the following steps:
