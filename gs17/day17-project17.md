@@ -1,5 +1,5 @@
 
-# Django Project: How to Create a Table in a Database using Django and Achieve Migration
+# Project: How to Create a Table in a Database using Django and Achieve Migration
 
 ## 1. **Created Django Project**
 To create the Django project named **gs17**, run the following command:
