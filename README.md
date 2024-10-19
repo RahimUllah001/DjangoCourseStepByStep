@@ -4,10 +4,10 @@ This repository contains projects from my Django crash course. Each day, I creat
 
 ## Table of Contents
 - [Day 1 - Project 1: Hello World Program](./gs1/)
-- [Day 2 - Project 2: Django HTTP Responses](./gs2/day2-project2.md)
-- [Day 3 - Project 3: Mapping multiple URLs to the same view function](./gs3/day3-project3.md)
-- [Day 4 - Project 4: Django HTTP Responses of different types](./gs4/day4-project4.md)
-- [Day 5 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques](./gs5/day5-project5.md)
+- [Day 2 - Project 2: Django HTTP Responses](./gs2/)
+- [Day 3 - Project 3: Mapping multiple URLs to the same view function](./gs3/)
+- [Day 4 - Project 4: Django HTTP Responses of different types](./gs4/)
+- [Day 5 - Project 5: Django Multi-App Architecture: Exploring Dual URL Mapping Techniques](./gs5/)
 - [Day 6 - Project 6: Efficient URL Configuration in Django](./gs6/day6-project6.md)
 - [Day 7 - Project 7: Direct URL Definition and Inclusion Method](./gs7/day7-project7.md)
 - [Day 9 - Project 9: How to use templates in django ](./gs9/day9-project9.md)
