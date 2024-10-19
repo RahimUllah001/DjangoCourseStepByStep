@@ -1,4 +1,4 @@
-# Project 2, Day 2 - Django HTTP Responses
+# Project:  Django HTTP Responses
 
 In this project, we created a Django project named **gs2** and an application named **course**. We implemented various views inside the **course** app that return different types of HTTP responses.
 
