@@ -1,4 +1,4 @@
-# Project : How to use templates in django 
+# Project: How to use templates in django 
 
 ## 1. Description of the Project
 In this project, I demonstrated how to integrate and use Django templates to dynamically generate HTML content. I set up a Django project with two applications, course and fees, and configured the settings.py to locate template directories. The project involved creating various HTML templates and rendering them from a view function, showcasing different ways to pass context data to templates.
