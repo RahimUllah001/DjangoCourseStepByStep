@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .success{
+            color: red;
+        }
+        .info{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method = "post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Submit">
+     </form>
+    {% comment %}
+        This below code os for simple showinf messages  {
+            {% if messages %}
+                {% for message in messages %}
+                        {{message}}
+                {% endfor %} 
+            {% endif %}
+                    
+    {% endcomment %}
+    {% comment %} for applying dynamic css bsed on message tags {% endcomment %}
+        {% if messages %}
+            {% for message in messages %}
+                <p {% if message.tags %} class="{{message.tags}}" {% endif %}>
+                    {{message}}
+                </p>
+            {% endfor %} 
+        {% endif %}
+
+</body>
+</html> 
