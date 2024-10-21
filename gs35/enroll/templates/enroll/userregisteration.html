@@ -20,7 +20,7 @@
         <input type="submit" value="Submit">
      </form>
     {% comment %}
-        This below code os for simple showinf messages  {
+        This below code is for simple showing messages  {
             {% if messages %}
                 {% for message in messages %}
                         {{message}}
@@ -28,7 +28,7 @@
             {% endif %}
                     
     {% endcomment %}
-    {% comment %} for applying dynamic css bsed on message tags {% endcomment %}
+    {% comment %} for applying dynamic css based on message tags {% endcomment %}
         {% if messages %}
             {% for message in messages %}
                 <p {% if message.tags %} class="{{message.tags}}" {% endif %}>
