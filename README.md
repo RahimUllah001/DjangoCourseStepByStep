@@ -38,6 +38,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 31 - Dynamic URL Configuration in Django](./gs31/)
 - [Day 32 - Configuring Django ModelForm for Custom Student Registration Form with Field Selection and Exclusion](./gs32/)
 - [Day 33 - Implementing Model Form Inheritance in Django](./gs33/)
+- [Day 34 - Messages Framework in Django](./gs34/)
 
 
 ## Project Descriptions
@@ -129,3 +130,6 @@ You can view the full details of this project [here](./gs32/day32-project32.md).
 
 ### Day 33 - Implementing Model Form Inheritance in Django
 You can view the full details of this project [here](./gs33/day33-project33.md).
+
+### Day 34 - Messages Framework in Django
+You can view the full details of this project [here](./gs34/day34-project34.md).
