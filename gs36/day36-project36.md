@@ -1,4 +1,4 @@
-# GS36 - User Registration with Django
+# User Registration with Django
 
 In this project, we have implemented a user registration system using Django's built-in `UserCreationForm`. The system allows users to sign up with essential details like username, first name, last name, and email, and validates the input before saving the user information.
 
