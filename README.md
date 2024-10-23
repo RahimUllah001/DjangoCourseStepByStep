@@ -41,6 +41,10 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 34 - Messages Framework in Django](./gs34/)
 - [Day 35 - Dynamic Message Styling and Message Levels in Django](./gs35/)
 - [Day 36 - User Registration with Django](./gs36/)
+- [Day 37 - User Registration with Django](./gs37/)
+
+
+
 
 
 ## Project Descriptions
@@ -142,4 +146,9 @@ You can view the full details of this project [here](./gs35/day35-project35.md).
 
 ### Day 36 - User Registration with Django
 You can view the full details of this project [here](./gs36/day36-project36.md).
+
+
+
+### Day 36 - Cookie Handling in Django
+You can view the full details of this project [here](./gs40/day40-project40.md).
 
