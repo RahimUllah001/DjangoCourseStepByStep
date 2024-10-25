@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h2>Welcome, {{ name | capfirst}}</h2>
+
+    {% if users != None %}
+    <h3>List of users</h3>
+    {% for user in users  %}  
+            <a href="{% url "userdetail" user.id %}">{{user}}</a>
+            <br><br>
+    {% endfor %}
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+
+        {% for fm in form %}
+            {{ fm.label_tag }}
+            {{ fm }}
+            {{ fm.errors|striptags }}
+            <br><br>
+        {% endfor %}
+    </form>
+
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <p>
+        <button><a href="{% url 'changepass1' %}">Change Password without old</a></button>
+        <button><a href="{% url 'changepass' %}">Change Password</a></button>
+        <button><a href="{% url 'logout' %}">Logout</a></button>
+        <button><a href="{% url 'edit_profile' %}">Edit Profile</a></button>
+    </p>
+</body>
+</html>

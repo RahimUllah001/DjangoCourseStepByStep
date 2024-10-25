@@ -1,0 +1,525 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SetPasswordForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "enroll",
+        "description": "enroll",
+        "isExtraImport": true,
+        "detail": "enroll",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollConfig",
+        "kind": 6,
+        "importPath": "enroll.apps",
+        "description": "enroll.apps",
+        "peekOfCode": "class EnrollConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'enroll'",
+        "detail": "enroll.apps",
+        "documentation": {}
+    },
+    {
+        "label": "signUpForm",
+        "kind": 6,
+        "importPath": "enroll.forms",
+        "description": "enroll.forms",
+        "peekOfCode": "class signUpForm(UserCreationForm):\n    password2 = forms.CharField(label='Confirm Password (again)', widget= forms.PasswordInput)\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name', 'email']\n        labels = {'email': 'Email'}\nclass EditUserProfileForm(UserChangeForm):\n    password = None\n    class Meta:\n        model = User",
+        "detail": "enroll.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EditUserProfileForm",
+        "kind": 6,
+        "importPath": "enroll.forms",
+        "description": "enroll.forms",
+        "peekOfCode": "class EditUserProfileForm(UserChangeForm):\n    password = None\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name', 'email','date_joined', 'last_login']\n        labels = {'email' : 'Email'}\nclass EditAdminProfileForm(UserChangeForm):\n    password = None\n    class Meta:\n        model = User",
+        "detail": "enroll.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EditAdminProfileForm",
+        "kind": 6,
+        "importPath": "enroll.forms",
+        "description": "enroll.forms",
+        "peekOfCode": "class EditAdminProfileForm(UserChangeForm):\n    password = None\n    class Meta:\n        model = User\n        fields = '__all__'",
+        "detail": "enroll.forms",
+        "documentation": {}
+    },
+    {
+        "label": "sign_up",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def sign_up(request):\n    if request.method == 'POST':\n        fm = signUpForm(request.POST)\n        if fm.is_valid():\n            fm.save()\n            messages.success(request,'Account created successfully')\n    else:\n        fm = signUpForm()\n    return render(request,'enroll/signup.html', {'form':fm})\n# Login view Function",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_login",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_login(request):\n    if not request.user.is_authenticated:\n        if request.method == \"POST\":\n            fm = AuthenticationForm(request = request, data = request.POST)\n            if fm.is_valid():\n                uname = fm.cleaned_data['username']\n                upass = fm.cleaned_data['password']\n                user = authenticate(username= uname, password = upass)\n                if user is not None:\n                    login(request,user)",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_profile",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_profile(request):\n    if request.user.is_authenticated:\n        if request.user.is_superuser == True:\n            fm = EditAdminProfileForm(instance=request.user)\n            users = User.objects.all()\n        else:\n            fm = EditUserProfileForm(instance=request.user)\n            users = None\n        # Disable all fields\n        for field in fm.fields.values():",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_logout",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_logout(request):\n    logout(request)\n    return HttpResponseRedirect('/login/')\n# Change Password with old Password\ndef user_change_pass(request):\n    print(f\"User authenticated: {request.user.is_authenticated}\")  \n    if request.user.is_authenticated:\n        if request.method == \"POST\":\n            fm = PasswordChangeForm(user = request.user, data = request.POST)\n            if fm.is_valid():",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_change_pass",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_change_pass(request):\n    print(f\"User authenticated: {request.user.is_authenticated}\")  \n    if request.user.is_authenticated:\n        if request.method == \"POST\":\n            fm = PasswordChangeForm(user = request.user, data = request.POST)\n            if fm.is_valid():\n                fm.save()\n                # update_session_auth_hash(request,fm.user)   #by writing this line the seesion will notb e expire and we redirect to prfile instead of login\n                messages.success(request,'Password change successfully')\n                return HttpResponseRedirect('/profile/')        # here we have written redirect to profile but it redirect us to login because after changing password our session expires so thats why we are not authenticated and it reidrect us to login ==> session expires",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_change_pass1",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_change_pass1(request):\n    print(f\"User authenticated: {request.user.is_authenticated}\")  \n    if request.user.is_authenticated:\n        if request.method == \"POST\":\n            fm = SetPasswordForm(user = request.user, data = request.POST)\n            if fm.is_valid():\n                fm.save()\n                # update_session_auth_hash(request,fm.user)   #by writing this line the seesion will notb e expire and we redirect to prfile instead of login\n                messages.success(request,'Password change successfully')    #this messge will be shown if i uncomment he above line mean when the session not get expires\n                return HttpResponseRedirect('/profile/')        # here we have written redirect to profile but it redirect us to login because after changing password our session expires so thats why we are not authenticated and it reidrect us to login ==> session expires",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_edit_profile",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_edit_profile(request):\n    if request.user.is_authenticated:\n        if request.method == 'POST':\n            fm = EditUserProfileForm(request.POST,instance=request.user)\n            if fm.is_valid():\n                messages.success(request,'profile updated!!!')\n                fm.save()\n                return HttpResponseRedirect('/profile/') \n        else:\n            fm = EditUserProfileForm(instance=request.user)",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_detail",
+        "kind": 2,
+        "importPath": "enroll.views",
+        "description": "enroll.views",
+        "peekOfCode": "def user_detail(request, id):\n    if request.user.is_authenticated:\n        pi = User.objects.get(pk=id)\n        fm = EditAdminProfileForm(instance=pi)\n        return render(request,'enroll/userdetail.html',{'form':fm})\n    else:\n        return HttpResponseRedirect('/login/')",
+        "detail": "enroll.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gs38.asgi",
+        "description": "gs38.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "gs38.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-p0u3=$4mmkisvn66f!3&md)%*s)8o*58+e3^%#7yn3no3%rl)8'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-p0u3=$4mmkisvn66f!3&md)%*s)8o*58+e3^%#7yn3no3%rl)8'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'enroll'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'enroll'\n]\nMIDDLEWARE = [",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'gs38.urls'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "ROOT_URLCONF = 'gs38.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'gs38.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "gs38.settings",
+        "description": "gs38.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "gs38.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "gs38.urls",
+        "description": "gs38.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('signup/', views.sign_up, name= 'signup'),\n    path('login/', views.user_login,name='login'),\n    path('profile/', views.user_profile,name='profile'),\n    path('logout/', views.user_logout,name='logout'),\n    path('change_pass/', views.user_change_pass,name='changepass'),\n    path('change_pass1/', views.user_change_pass1,name='changepass1'),\n    path('edit_profile/', views.user_edit_profile,name='edit_profile'),\n    path('userdetail/<int:id>', views.user_detail,name='userdetail'),",
+        "detail": "gs38.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "gs38.wsgi",
+        "description": "gs38.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "gs38.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gs38.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
