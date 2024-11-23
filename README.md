@@ -17,8 +17,8 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 12 - Project 12: Static Files in Django ](./gs12/)
 - [Day 13 - Project 13: Template Inheritance in Django ](./gs13/)
 - [Day 14 - Project 14: Using Bootstrap Template Inheritance in Django ](./gs14/)
-- [Day 14 - Project 15: Read file still to add ](./gs15)
-- [Day 14 - Project 16: Read Me file still to add ](./gs16)
+- [Day 15 - Project 15: Read file still to add ](./gs15)
+- [Day 16 - Project 16: Read Me file still to add ](./gs16)
 - [Day 17 - Project 17: How to Create a Table in a Database using Django and Achieve Migration ](./gs17/)
 - [Day 18 - Project 18: Using the list_display Property of the ModelAdmin Class for Customizing the Admin Interface in Django](./gs18/)
 - [Day 19 - Project 19: Django Form Display Methods](./gs19/)
@@ -47,6 +47,14 @@ This repository contains projects from my Django crash course. Each day, I creat
 
 - [Day 41 - Session Handling in Django](./gs41/)
 - [Day 41 - Django Session Management](./gs42/)
+
+
+
+
+
+
+- [Day 51 - Django Session Management](./gs51/)
+
 
 
 
@@ -169,3 +177,15 @@ You can view the full details of this project [here](./gs41/day41-project41.md).
 
 ### Day 42 Django Session Management Project
 You can view the full details of this project [here](./gs42/day42-project42.md).
+
+
+
+
+
+
+
+
+
+
+### Day 51 Django QuerySet API: Methods That Return New QuerySets
+You can view the full details of this project [here](./gs51/day51-project51.md).
