@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {% for fm in form %}
+        {% if fm.name != 'usable_password' %}  <!-- Exclude the usable_password field -->
+            {{ fm.label_tag }} {{ fm }} {{ fm.errors|striptags }} <br><br>
+        {% endif %}
+    {% endfor %}
+    <input type="submit" value="Submit">
+</form>
+<!-- Displaying success and other messages -->
+{% if messages %}
+        {% for message in messages %}
+            {{ message }} 
+        {% endfor %}
+{% endif %}
+
+<a href="{% url "login" %}">Log In</a>
+
+</body>
+</html> 
+
+{% comment %} if i want not show enable and disable button {% endcomment %}
+{% comment %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registeration</title>
+</head>
+<body>
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    {% for fm in form %}
+        {{fm.label_tag}} {{fm}} {{fm.errors|striptags}} <br><br>
+    {% endfor %}
+
+<input type="submit" value="Submit">
+
+</form>
+
+{% if messages %}
+{% for message in messages  %}
+
+{{message}}
+{% endfor %}
+{% endif %}
+</body>
+</html> {% endcomment %} 
