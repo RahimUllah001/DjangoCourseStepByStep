@@ -46,6 +46,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 40 - Cookie Handling in Django](./gs40/)
 
 - [Day 41 - Session Handling in Django](./gs41/)
+- [Day 41 - Django Session Management](./gs42/)
 
 
 
@@ -163,5 +164,8 @@ You can view the full details of this project [here](./gs38/day38-project3.md).
 ### Day 40 - Cookie Handling in Django
 You can view the full details of this project [here](./gs40/day40-project40.md).
 
-### Day 40 Django Session Handling
+### Day 41 Django Session Handling
 You can view the full details of this project [here](./gs41/day41-project41.md).
+
+### Day 42 Django Session Management Project
+You can view the full details of this project [here](./gs42/day42-project42.md).
