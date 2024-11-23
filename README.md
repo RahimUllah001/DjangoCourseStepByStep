@@ -45,6 +45,9 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 38 - User Authentication and Profile Management with seperate interface for admin and normal users in Django ](./gs38/)
 - [Day 40 - Cookie Handling in Django](./gs40/)
 
+- [Day 41 - Session Handling in Django](./gs41/)
+
+
 
 User Authentication and Profile Management with seperate interface for admin and normal users in Django 
 
@@ -160,3 +163,5 @@ You can view the full details of this project [here](./gs38/day38-project3.md).
 ### Day 40 - Cookie Handling in Django
 You can view the full details of this project [here](./gs40/day40-project40.md).
 
+### Day 40 Django Session Handling
+You can view the full details of this project [here](./gs41/day41-project41.md).
