@@ -55,6 +55,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 
 - [Day 51 - Django Session Management](./gs51/)
 - [Day 58 - Multi-Table Model Inheritance in Django](./gs58/)
+- [Day 59 - Proxy Model Inheritance in Django](./gs59/)
 
 
 ## Project Descriptions
@@ -189,3 +190,6 @@ You can view the full details of this project [here](./gs51/day51-project51.md).
 
 ### Day 58  Multi-Table Model Inheritance in Django
 You can view the full details of this project [here](./gs58/day58-project58.md).
+
+### Day 59  Proxy Model Inheritance in Django
+You can view the full details of this project [here](./gs59/day59-project59.md).
