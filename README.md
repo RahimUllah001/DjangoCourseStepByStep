@@ -33,30 +33,30 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 27 - Project 27: Custom Validation in Django Forms](./gs27/)
 - [Day 28 - Project 28: User Registration with Password Matching in Django](./gs28/)
 - [Day 29 - Project 29: Django User Registration System using Form Api](./gs29/)
-- [Day 30 - Django User Registration System using Model form](./gs30/)
+- [Day 30 - Project 30: Django User Registration System using Model form](./gs30/)
 
-- [Day 31 - Dynamic URL Configuration in Django](./gs31/)
-- [Day 32 - Configuring Django ModelForm for Custom Student Registration Form with Field Selection and Exclusion](./gs32/)
-- [Day 33 - Implementing Model Form Inheritance in Django](./gs33/)
-- [Day 34 - Messages Framework in Django](./gs34/)
-- [Day 35 - Dynamic Message Styling and Message Levels in Django](./gs35/)
-- [Day 36 - User Registration with Django](./gs36/)
-- [Day 37 - User Authentication and Profile Management in Django](./gs37/)
-- [Day 38 - User Authentication and Profile Management with seperate interface for admin and normal users in Django ](./gs38/)
-- [Day 40 - Cookie Handling in Django](./gs40/)
+- [Day 31 - Project 31: Dynamic URL Configuration in Django](./gs31/)
+- [Day 32 - Project 32: Configuring Django ModelForm for Custom Student Registration Form with Field Selection and Exclusion](./gs32/)
+- [Day 33 - Project 33: Implementing Model Form Inheritance in Django](./gs33/)
+- [Day 34 - Project 34: Messages Framework in Django](./gs34/)
+- [Day 35 - Project 35: Dynamic Message Styling and Message Levels in Django](./gs35/)
+- [Day 36 - Project 36: User Registration with Django](./gs36/)
+- [Day 37 - Project 37: User Authentication and Profile Management in Django](./gs37/)
+- [Day 38 - Project 38: User Authentication and Profile Management with seperate interface for admin and normal users in Django ](./gs38/)
+- [Day 40 - Project 40: Cookie Handling in Django](./gs40/)
 
-- [Day 41 - Session Handling in Django](./gs41/)
-- [Day 42 - Django Session Management](./gs42/)
-
-
+- [Day 41 - Project 41: Session Handling in Django](./gs41/)
+- [Day 42 - Project 42: Django Session Management](./gs42/)
 
 
 
 
-- [Day 51 - Django QuerySet API: Methods That Return New QuerySets](./gs51/)
-- [Day 52 - Django QuerySet Methods Without Returning New QuerySets](./gs52/)
-- [Day 58 - Multi-Table Model Inheritance in Django](./gs58/)
-- [Day 59 - Proxy Model Inheritance in Django](./gs59/)
+
+
+- [Day 51 - Project 51: Django QuerySet API: Methods That Return New QuerySets](./gs51/)
+- [Day 52 - Project 52: Django QuerySet Methods Without Returning New QuerySets](./gs52/)
+- [Day 58 - Project 58: Multi-Table Model Inheritance in Django](./gs58/)
+- [Day 59 - Project 59: Proxy Model Inheritance in Django](./gs59/)
 
 
 ## Project Descriptions
