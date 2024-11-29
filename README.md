@@ -57,6 +57,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 52 - Project 52: Django QuerySet Methods Without Returning New QuerySets](./gs52/)
 - [Day 58 - Project 58: Multi-Table Model Inheritance in Django](./gs58/)
 - [Day 59 - Project 59: Proxy Model Inheritance in Django](./gs59/)
+- [Day 60 - Managers and Custom Managers in Django](./gs60/)
 
 
 ## Project Descriptions
@@ -205,3 +206,6 @@ You can view the full details of this project [here](./gs58/day58-project58.md).
 
 ### Day 59  Proxy Model Inheritance in Django
 You can view the full details of this project [here](./gs59/day59-project59.md).
+
+### Day 60  Managers and Custom Managers in Django
+You can view the full details of this project [here](./gs60/day60-project60.md).
