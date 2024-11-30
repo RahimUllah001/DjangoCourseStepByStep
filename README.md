@@ -55,6 +55,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 
 - [Day 51 - Project 51: Django QuerySet API: Methods That Return New QuerySets](./gs51/)
 - [Day 52 - Project 52: Django QuerySet Methods Without Returning New QuerySets](./gs52/)
+- [Day 53 - Project 53: Django QuerySet API Field Lookups Project](./gs53/)
 - [Day 58 - Project 58: Multi-Table Model Inheritance in Django](./gs58/)
 - [Day 59 - Project 59: Proxy Model Inheritance in Django](./gs59/)
 - [Day 60 - Managers and Custom Managers in Django](./gs60/)
@@ -192,6 +193,11 @@ You can view the full details of this project [here](./gs51/day51-project51.md).
 
 ### Day 52 Django QuerySet Methods Without Returning New QuerySets
 You can view the full details of this project [here](./gs52/day52-project52.md).
+
+
+
+### Day 53 Django QuerySet API Field Lookups Project
+You can view the full details of this project [here](./gs523day53-project53.md).
 
 
 
