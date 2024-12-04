@@ -198,12 +198,12 @@ You can view the full details of this project [here](./gs52/day52-project52.md).
 
 
 ### Day 53 Django QuerySet API Field Lookups Project
-You can view the full details of this project [here](./gs53day53-project53.md).
+You can view the full details of this project [here](./gs53/day53-project53.md).
 
 
 
 ### Day 54 Django Aggregation with ORM
-You can view the full details of this project [here](./gs54day54-project54.md).
+You can view the full details of this project [here](./gs54/day54-project54.md).
 
 
 
