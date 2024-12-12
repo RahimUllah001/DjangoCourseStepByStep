@@ -58,6 +58,7 @@ This repository contains projects from my Django crash course. Each day, I creat
 - [Day 53 - Project 53: Django QuerySet API Field Lookups Project](./gs53/)
 - [Day 54 - Project 54: Django Aggregation with ORM](./gs54/)
 - [Day 55 - Project 55: Using Q Objects for Complex Queries in Django](./gs55/)
+- [Day 57 - Project 57: Django Model Inheritance: Abstract Base Class](./gs57/)
 - [Day 58 - Project 58: Multi-Table Model Inheritance in Django](./gs58/)
 - [Day 59 - Project 59: Proxy Model Inheritance in Django](./gs59/)
 - [Day 60 - Managers and Custom Managers in Django](./gs60/)
@@ -217,6 +218,10 @@ You can view the full details of this project [here](./gs55/day55-project55.md).
 
 
 
+
+
+### Day 57  Django Model Inheritance: Abstract Base Class
+You can view the full details of this project [here](./gs57/day57-project57.md).
 
 
 ### Day 58  Multi-Table Model Inheritance in Django
